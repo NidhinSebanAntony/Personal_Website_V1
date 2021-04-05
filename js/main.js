@@ -1,4 +1,14 @@
- AOS.init({
+
+function contactResponseFn() {
+	document.getElementById('gform').style.display="none"
+	document.getElementById('contact_response_message').style.display="block"
+}
+
+function goBackBtn() {
+	window.location.reload()
+}
+
+AOS.init({
  	duration: 800,
  	easing: 'slide'
  });
