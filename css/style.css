@@ -12612,3 +12612,7 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+#contact_response_message {
+  display: none;
+}
